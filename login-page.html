@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;700&family=Jost:wght@200;400;600;800&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .left,
+      .right {
+        width: 50%;
+        position: absolute;
+        height: 100%;
+      }
+      .left {
+        background: linear-gradient rgb(245, 230, 216);
+        text-align: center;
+        font-family:'Quicksand', sans-serif;
+        padding: 258px 0;
+        position: relative;
+      }
+      .right {
+        left: 50%;
+        top: 0;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      figure {
+        height: 100%;
+        line-height: 0;
+      }
+      h1 {
+        color: rgb(161, 110, 47);
+        margin-top: 60px;
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      h4 {
+        color: rgb(95, 64, 47);
+        padding-top: 15px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        /* text-decoration: underline; */
+        text-transform: uppercase;
+      }
+      button {
+        margin: 25px 0;
+        border-radius: 20px;
+        width: 80px;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        background-color: rgb(161, 110, 47);
+        text-transform: uppercase;
+      }
+      input {
+        border-radius: 5px;
+        font-size: 16px;
+        border-color: rgb(216, 201, 183);
+        height: 30px;
+      }
+      a {
+        color: rgb(34, 26, 146);
+        text-decoration: none;
+        font-weight: 400;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="left">
+        <h1>Wellcome!</h1>
+        <form action="">
+            
+            <h4>
+                Email
+            </h2>
+
+            <p>
+                <input type="email" placeholder="Enter e-mail" color="rgb(128, 70, 39)"/>
+            </p>
+            
+            <h4>
+                Password
+            </h2>
+
+            <p>
+                <input type="password" placeholder="Enter password" />
+            </p>
+            
+            <p>
+                <button>
+                    Log In
+                </button>
+            </p>
+
+            <a href="">
+                Registration
+            </a>
+
+            <a style="padding-left: 2em;" href="">
+                Login problem?
+            </a>
+        </form>
+
+    </div>
+    
+    <div class="right">
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwc3RvcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </figure>
+    </div>
+  </body>
+</html>
