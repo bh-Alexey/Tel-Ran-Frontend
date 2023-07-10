@@ -1,16 +1,16 @@
-let number = +prompt("Enter the number");
-let result = number % 10;
-if ((number > 0) && (number < 10)) {
-    alert(number);
+let num = +prompt("Enter the number");
+let digit = number % 10;
+if ((num > 0) && (num < 10)) {
+    alert(num);
 }
-else if ((number > 0) && (number > 10)) {
-    alert(result);
+else if ((num > 0) && (num > 10)) {
+    alert(difit);
 }
-else if ((number < 0) && (number > -10 )){
+else if ((num < 0) && (num > -10 )){
     alert(-number);
 }
-else if ((number < 0) && (number < -10 )){
-    alert(-result);
+else if ((num < 0) && (num < -10 )){
+    alert(-digit);
 }
 else {
     alert(0);
